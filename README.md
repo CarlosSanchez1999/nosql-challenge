@@ -47,7 +47,8 @@ Include any specific steps or examples on how to run queries, Jupyter notebooks,
 
 **Credits**
 Author: Carlos Sánchez
-Technologies:
-MongoDB
-Python
-Pandas
+
+**Technologies:**
+   MongoDB
+   Python
+   Pandas
