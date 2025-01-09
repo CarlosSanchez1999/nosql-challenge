@@ -28,18 +28,24 @@ Key challenges addressed in the project include:
 2. **Clone the Repository**  
    ```bash
    git clone https://github.com/your-username/uk-food-establishments.git
-
+   
+3. **Create and Activate a Virtual Environment** 
+   ```bash
 conda create --name dev python=3.9
 conda activate dev
 
+4. **Install Python Dependencies** 
+   ```bash
 pip install pymongo pandas jupyter
 
+5. **Import the JSON Data** 
+   ```bash
 mongoimport --type json -d uk_food -c establishments --jsonArray ./resources/establishments.json
 
-Usage
+**Usage**
 Include any specific steps or examples on how to run queries, Jupyter notebooks, etc.
 
-Credits
+**Credits**
 Author: Carlos Sánchez
 Technologies:
 MongoDB
