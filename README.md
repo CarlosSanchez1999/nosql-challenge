@@ -29,16 +29,16 @@ Key challenges addressed in the project include:
    ```bash
    git clone https://github.com/your-username/uk-food-establishments.git
 
-**Create and Activate a Virtual Environment**
+3.**Create and Activate a Virtual Environment**
    ```bash
 conda create --name dev python=3.9
 conda activate dev
 
-**Install Python Dependencies:**
+
    ```bash
 pip install pymongo pandas jupyter
 
-**Import the JSON Data **
+
    ```bash
 mongoimport --type json -d uk_food -c establishments --jsonArray ./resources/establishments.json
 
